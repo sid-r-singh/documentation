@@ -42,9 +42,9 @@ const customFields = {
 const config = {
   title: 'AgileTs',
   tagline: 'AgileTs is a global, simple, spacy State and Logic Framework',
-  url: customFields.domain,
+  url: '/documentation/',
   baseUrlIssueBanner: false,
-  baseUrl: '/documentation/',
+  baseUrl: 'https://sidrana.dev',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'AgileTs',
