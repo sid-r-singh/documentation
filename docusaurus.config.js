@@ -45,7 +45,7 @@ const config = {
   url: 'https://sidrana.dev/',
   baseUrlIssueBanner: false,
   baseUrl: 'documentation/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'AgileTs',
   projectName: 'agilets',
