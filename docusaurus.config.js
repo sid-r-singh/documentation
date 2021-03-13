@@ -2,9 +2,9 @@ const { Agile, generateId } = require('@agile-ts/core');
 const { AgileHOC, useAgile, useEvent, useWatcher } = require('@agile-ts/react');
 const { toast } = require('react-toastify');
 
-const githubOrgUrl = 'https://github.com/agile-ts';
-const domain = 'https://agile-ts.org';
-const npmOrgUrl = 'https://www.npmjs.com/package/@agile-ts';
+const githubOrgUrl = 'https://github.com/sid-r-singh';
+const domain = 'https://sidrana.dev';
+
 
 const customFields = {
   copyright: `Created with 💜 in Germany     |    Copyright © ${new Date().getFullYear()} <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DevBenno">BennoDev</a>`,
@@ -17,12 +17,7 @@ const customFields = {
   },
   domain,
   githubOrgUrl,
-  githubUrl: `${githubOrgUrl}/agile`,
-  githubDocsUrl: `${githubOrgUrl}/documentation`,
-  npmCoreUrl: `${npmOrgUrl}/core`,
-  discordUrl: `https://discord.gg/T9GzreAwPH`,
-  stackoverflowUrl: 'https://stackoverflow.com/questions/tagged/agile-ts',
-  twitterUrl: 'https://twitter.com/AgileFramework',
+
   version: '0.0.1',
   announcementBarContent:
     'If you like AgileTs, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile">GitHub</a> 🎉 !️',
@@ -42,7 +37,7 @@ const config = {
   tagline: 'AgileTs is a global, simple, spacy State and Logic Framework',
   url: customFields.domain,
   baseUrlIssueBanner: false,
-  baseUrl: '/',
+  baseUrl: '/documents/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'AgileTs',
