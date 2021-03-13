@@ -4,6 +4,7 @@ const { toast } = require('react-toastify');
 
 const githubOrgUrl = 'https://github.com/sid-r-singh';
 const domain = 'https://sidrana.dev';
+const npmOrgUrl = 'https://www.npmjs.com/package/@agile-ts';
 
 
 const customFields = {
@@ -17,7 +18,12 @@ const customFields = {
   },
   domain,
   githubOrgUrl,
-
+  githubUrl: `${githubOrgUrl}/`,
+  githubDocsUrl: `${githubOrgUrl}/documentation`,
+  npmCoreUrl: `${npmOrgUrl}/core`,
+  discordUrl: `https://discord.gg/T9GzreAwPH`,
+  stackoverflowUrl: 'https://stackoverflow.com/questions/tagged/agile-ts',
+  twitterUrl: 'https://twitter.com/AgileFramework',
   version: '0.0.1',
   announcementBarContent:
     'If you like AgileTs, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile">GitHub</a> 🎉 !️',
@@ -31,6 +37,7 @@ const customFields = {
     toast,
   },
 };
+
 
 const config = {
   title: 'AgileTs',
