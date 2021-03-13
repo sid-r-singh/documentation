@@ -1,8 +1,7 @@
 name: Test Website
 on:
-  pull_request:
-    branches: [ "*" ]
-    types: [ "opened", "reopened" ]
+  push
+
 
 jobs:
   publish:
@@ -24,14 +23,14 @@ jobs:
       - name: ⏳ Install
         run: yarn install
 
-        # Run Tests
-      - name: 🤔 Test
-        run: yarn test
-
-        # Run Linter
-      - name: 🤖 Lint
-        run: yarn run lint
-
         # Build Packages for Testing
       - name: 🔨 Build Packages
-        run: yarn run build
+        run: yarn build
+
+        # Deploy to GH pages
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build
+          full_commit_message: "Deployed updated by GH-action"
