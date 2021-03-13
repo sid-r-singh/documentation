@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://agile-ts.org/blog</id>
+    <id>https://sidrana.dev/blog</id>
     <title>AgileTs Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://agile-ts.org/blog"/>
+    <link rel="alternate" href="https://sidrana.dev/blog"/>
     <subtitle>AgileTs Blog</subtitle>
-    <icon>https://agile-ts.org/img/favicon.ico</icon>
+    <icon>https://sidrana.dev/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://agile-ts.org/blog/welcome"/>
+        <link href="https://sidrana.dev/documents/blog/welcome"/>
         <updated>2019-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello there]]></summary>
     </entry>
