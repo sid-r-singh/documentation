@@ -44,7 +44,7 @@ const config = {
   tagline: 'AgileTs is a global, simple, spacy State and Logic Framework',
   url: 'https://sidrana.dev/',
   baseUrlIssueBanner: false,
-  baseUrl: 'documentation/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'AgileTs',
