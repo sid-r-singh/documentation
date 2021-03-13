@@ -70,7 +70,7 @@ const config = {
     announcementBar: {
       id: 'github-star',
       content: customFields.announcementBarContent,
-      backgroundColor: '#9c9abf',
+      backgroundColor: '#31c48d',
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
