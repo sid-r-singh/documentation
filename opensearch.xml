@@ -5,7 +5,7 @@
   <Description>Search AgileTs</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://sidrana.dev/documentation/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://sidrana.dev/documentation/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://sidrana.dev/documentation/opensearch.xml" />
-  <moz:SearchForm>https://sidrana.dev/documentation/</moz:SearchForm>
+  <Url type="text/html" method="get" template="https://sidrana.dev//documentation/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://sidrana.dev//documentation/opensearch.xml" />
+  <moz:SearchForm>https://sidrana.dev//documentation/</moz:SearchForm>
 </OpenSearchDescription>
