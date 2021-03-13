@@ -44,7 +44,7 @@ const config = {
   tagline: 'AgileTs is a global, simple, spacy State and Logic Framework',
   url: customFields.domain,
   baseUrlIssueBanner: false,
-  baseUrl: '/documents/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'AgileTs',
